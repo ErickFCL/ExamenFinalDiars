@@ -20,7 +20,7 @@ namespace ExFinalDiarsN00020449.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View("Index");
         }
 
         public IActionResult Privacy()

@@ -14,6 +14,10 @@ namespace ExFinalDiarsN00020449.Models.Map
             builder.ToTable("Usuario");
             builder.HasKey(o => o.Id);
 
+            builder.HasMany(o => o.Notas).
+                WithOne(o => o.Usuarios).
+                HasForeignKey(o => o.IdUsuario);
+
         }
     }
 }

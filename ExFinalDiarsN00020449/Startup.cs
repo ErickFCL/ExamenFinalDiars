@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ExFinalCalidadN00020449.Repositorio;
+using ExFinalCalidadN00020449.Services;
 using ExFinalDiarsN00020449.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
@@ -30,6 +32,11 @@ namespace ExFinalDiarsN00020449
             services.AddDbContext<N00020449Context>(
                   options => options.UseSqlServer(Configuration.GetConnectionString("DevConnection"))
           );
+            services.AddTransient<IN00020449Context, N00020449Context>();
+            services.AddTransient<INotaRepo, NotaRepo>();
+            services.AddTransient<IUsuarioRepo, UsuarioRepo>();
+            services.AddTransient<IClaimService, ClaimService>();
+
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(option => { option.LoginPath = "/Usuario/Login"; });
         }

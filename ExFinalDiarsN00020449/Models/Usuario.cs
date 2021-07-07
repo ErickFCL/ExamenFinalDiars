@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExFinalCalidadN00020449.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -17,5 +18,7 @@ namespace ExFinalDiarsN00020449.Models
         [DataType(DataType.Password)]
         [MinLength(6)]
         public string Password { get; set; }
+        public List<Nota> Notas { get; set; }
+        public List<Compartir> Compartirs { get; set; }
     }
 }

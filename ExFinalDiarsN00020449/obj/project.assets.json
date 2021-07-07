@@ -5708,11 +5708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ExFinalDiarsN00020449\\ExFinalDiarsN00020449\\ExFinalDiarsN00020449.csproj",
-      "projectName": "ExFinalDiarsN00020449",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\ExFinalDiarsN00020449\\ExFinalDiarsN00020449\\ExFinalDiarsN00020449.csproj",
+      "projectUniqueName": "F:\\ERICK\\UPN\\Ciclo 8\\Calidad\\ExFinalDiarsN00020449\\ExFinalDiarsN00020449\\ExFinalCalidadN00020449.csproj",
+      "projectName": "ExFinalCalidadN00020449",
+      "projectPath": "F:\\ERICK\\UPN\\Ciclo 8\\Calidad\\ExFinalDiarsN00020449\\ExFinalDiarsN00020449\\ExFinalCalidadN00020449.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\ExFinalDiarsN00020449\\ExFinalDiarsN00020449\\obj\\",
+      "outputPath": "F:\\ERICK\\UPN\\Ciclo 8\\Calidad\\ExFinalDiarsN00020449\\ExFinalDiarsN00020449\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

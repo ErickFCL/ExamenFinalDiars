@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OHtzinko+ARCjPdHdJqHC9CBj3XN5ws+YB8TQTX2kwvSlOuictA/HAHCdIMoS4WI20eERBBvIBnbQQwMzk6lNw==",
+  "dgSpecHash": "/Utkpv6Pzpgbvxcm9VAtwDk23uoWpPMnGfSzouFgeBDk0g0AfYWmAv8LRSaJxYsBst08Hn/4aKyRxOpkoFFAsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\ExFinalDiarsN00020449\\ExFinalDiarsN00020449\\ExFinalDiarsN00020449.csproj",
+  "projectFilePath": "F:\\ERICK\\UPN\\Ciclo 8\\Calidad\\ExFinalDiarsN00020449\\ExFinalDiarsN00020449\\ExFinalCalidadN00020449.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
